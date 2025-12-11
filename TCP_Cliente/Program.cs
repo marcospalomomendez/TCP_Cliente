@@ -23,20 +23,24 @@ namespace TCP_Cliente
             //obtengo el flujo de datos para recibir datos
             NetworkStream flujillo = clientardo.GetStream();
 
-            byte[] yoquieroBuffer = new byte[1024];
+            for (int i = 0; i < 5; i++)
+            {
+                byte[] yoquieroBuffer = new byte[1024];
 
-            //Read se bloquea hasta que el server envie datos
-            //devuleve el numero de bytes leidos / recibidos
-            int cosas_leidas = flujillo.Read(yoquieroBuffer, 0, yoquieroBuffer.Length);
+                //Read se bloquea hasta que el server envie datos
+                //devuleve el numero de bytes leidos / recibidos
+                int cosas_leidas = flujillo.Read(yoquieroBuffer, 0, yoquieroBuffer.Length);
 
 
-            string mensajardo;
+                string mensajardo;
 
-            //convierto los bytes recibidos a string
-            mensajardo = Encoding.UTF8.GetString(yoquieroBuffer, 0, cosas_leidas);
+                //convierto los bytes recibidos a string
+                mensajardo = Encoding.UTF8.GetString(yoquieroBuffer, 0, cosas_leidas);
 
-            //muestro el mensaje recibido
-            Console.WriteLine("El server dice esto: " + mensajardo);
+                //muestro el mensaje recibido
+                Console.WriteLine("El server dice esto: " + mensajardo);
+
+            }
 
             //cierra el puerto y la conexion
             clientardo.Close();
