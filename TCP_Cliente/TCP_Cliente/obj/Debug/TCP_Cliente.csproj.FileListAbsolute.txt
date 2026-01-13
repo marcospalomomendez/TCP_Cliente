@@ -1,0 +1,8 @@
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\bin\Debug\TCP_Cliente.exe.config
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\bin\Debug\TCP_Cliente.exe
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\bin\Debug\TCP_Cliente.pdb
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\obj\Debug\TCP_Cliente.csproj.AssemblyReference.cache
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\obj\Debug\TCP_Cliente.csproj.CoreCompileInputs.cache
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\obj\Debug\TCP_Cliente.exe
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\obj\Debug\TCP_Cliente.pdb
+C:\Users\CAMPUSFP\source\repos\TCP_Cliente\TCP_Cliente\obj\Debug\TCP_Cliente.exe.config
